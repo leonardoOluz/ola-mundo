@@ -4,7 +4,7 @@ import SobreMim from "./paginas/sobreMim";
 import Menu from "./componentes/Menu";
 
 
-function App() {
+function AppRouter() {
   return (
     <BrowserRouter>
       <Menu />
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRouter;
