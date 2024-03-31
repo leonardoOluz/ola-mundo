@@ -1,7 +1,7 @@
 import styles from "./Inicio.module.css";
 
-import post from 'assets/json/posts.json';
-import Post from "componentes/Post";
+import post from 'json/posts.json';
+import Post from "componentes/PostCard";
 
 
 export default function Inicio() {
